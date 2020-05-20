@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>La hamburgueseria</h1>
+    <img src="assets/images/burger.jpg" alt="hamburguesa">
+    <h2>Realizar pedido</h2>
+    <form action="">
+        <label for="name">Nombre</label>
+        <input type="text" name="nombre" id="name" placeholder="Nombre"><br><br>
+        <label for="surname">Apellido</label>
+        <input type="text" name="apellido" id="surname" placeholder="Apellido"><br><br>
+        <label for="phone">Telefono</label>
+        <input type="tel" name="telefono" id="phone" placeholder="0351000000000"><br><br>
+        <label for="adress">Direccion</label>
+        <input type="text" name="direccion" id="adress" placeholder="Direccion"><br><br>
+        <label for="select_pack">Pack</label>
+        <select name="pack" id="select_pack">
+            <optgroup label="ternera">
+                <option value="pack1">Hamburguesa</option>
+                <option value="pack2">Hamburguesa + papas</option>
+                <option value="pack3">Hamburguesa + papas + bebida</option>
+            </optgroup>
+        </select><br><br>
+        <h3>Seleccionar toppings</h3>
+        <label for="t_tomate">Tomate
+            <input type="checkbox" id="t_tomate" name="toppings">
+        </label>
+        <label for="t_lechuga">Lechuga
+            <input type="checkbox" id="t_lechuga" name="toppings">
+        </label>
+        <label for="t_cheddar">Cheddar
+            <input type="checkbox" id="t_cheddar" name="toppings">
+        </label>
+        <label for="t_cebolla">Cebolla
+            <input type="checkbox" id="t_cebolla" name="toppings">
+        </label><br><br>
+        <label for="t_pepino">Pepino
+            <input type="checkbox" id="t_pepino" name="toppings">
+        </label>
+        <label for="t_bacon">Panceta
+            <input type="checkbox" id="t_bacon" name="toppings">
+        </label>
+        <label for="t_bbq">Barbacoa
+            <input type="checkbox" id="t_bbq" name="toppings">
+        </label>
+        <label for="t_mostaza">Mostaza
+            <input type="checkbox" id="t_mostaza" name="toppings">
+        </label><br><br>
+        <h3>Seleccionar bebidas</h3>
+        <label for="d_gaseosa">Gaseosa
+            <input type="radio" id="d_gaseosa" name="drinks">
+        </label>
+        <label for="d_cerveza">Cerveza
+            <input type="radio" id="d_cerveza" name="drinks">
+        </label>
+        <label for="d_jugo">Jugo
+            <input type="radio" id="d_jugo" name="drinks">
+        </label>
+        <label for="d_soda">Soda
+            <input type="radio" id="d_soda" name="drinks">
+        </label><br><br>
+        <h3>Seleccionar envio</h3>
+        <label for="e_glovo">Glovo
+            <input type="radio" id="e_glovo" name="delivery">
+        </label>
+        <label for="e_pedidosya">Pedidos ya
+            <input type="radio" id="e_pedidosya" name="delivery">
+        </label><br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
