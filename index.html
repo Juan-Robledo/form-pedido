@@ -21,10 +21,16 @@
         <input type="text" name="direccion" id="adress" placeholder="Direccion"><br><br>
         <label for="select_pack">Pack</label>
         <select name="pack" id="select_pack">
+            <option value="">Seleccionar</option>
             <optgroup label="ternera">
                 <option value="pack1">Hamburguesa</option>
                 <option value="pack2">Hamburguesa + papas</option>
                 <option value="pack3">Hamburguesa + papas + bebida</option>
+            </optgroup>
+            <optgroup label="vegana">
+                <option value="pack4">Hamburguesa</option>
+                <option value="pack5">Hamburguesa + papas</option>
+                <option value="pack6">Hamburguesa + papas + bebida</option>
             </optgroup>
         </select><br><br>
         <h3>Seleccionar toppings</h3>
@@ -72,7 +78,7 @@
         <label for="e_pedidosya">Pedidos ya
             <input type="radio" id="e_pedidosya" name="delivery">
         </label><br><br>
-        <input type="submit">
+        <input type="submit" value="Pagar">
     </form>
 </body>
 </html>
